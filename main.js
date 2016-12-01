@@ -36,3 +36,15 @@
 
 // var sentence = toSentence(['lions', 'tigers', 'bears']);
 // console.log(sentence) // 'lions, tigers, and bears!'
+
+// task 7
+// Write a function called random number that returns a random number between 0 and x
+// Hint: Take a look at MDN's docs on Math.random
+// var answer = randomNumber(5);
+// console.log(answer) // 0..5
+
+// task 8
+// Write a function called magicEightball that returns a random answer from the following list
+// "yes", "no", "maybe", "ask again later", "most likely"
+// var answer = magicEightball();
+// console.log(answer) // yes || no || maybe etc...
