@@ -1,4 +1,4 @@
-# Function Exercises
+# Function Exercises 🏋️‍
 
 Take a look at main.js
 
