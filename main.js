@@ -48,3 +48,10 @@
 // "yes", "no", "maybe", "ask again later", "most likely"
 // var answer = magicEightball();
 // console.log(answer) // yes || no || maybe etc...
+
+// task 9
+// write a function called pluck that takes an array of objects and a key as arguments
+// and returns a list of those properties
+// var students = [{name: 'Harry', age: 12}, {name: 'Hermione', age: 13}, {name: 'Draco', age: 13}];
+// var names = pluck(students, 'name');
+// console.log(names) // ['Harry', 'Hermione', 'Draco']
