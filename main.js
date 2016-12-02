@@ -65,9 +65,11 @@ var answer = second(['a', 'b', 'c']);
 // Write a function called toSentence that takes an array and returns a string
 function toSentence (mammals) {
   var animals = mammals;
-  var lionsUp = mammals[0].toUpperCase();
+  function lionsUp() {
+    mammals[0].toUpperCase() + mammals.slice(1);
+  };
   var animalList = animals.join(", ");
-  document.querySelector("#task-6").innerText = animalList;
+  document.querySelector("#task-6").innerText = animalList.lionsUp();
 }
 // where the items are joined by commas (except the last one which is joined with 'and')
 // where the first letter is capitalized and the string ends in an exclamation point.
